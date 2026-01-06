@@ -35,6 +35,9 @@ We show that in both generalization types for 1D and 2D, the error rate with res
 Figure 1:
 ![Figure 1](./imgs/Figure1.png)
 
+Figure 2:
+![Figure 2](./imgs/Figure2.png)
+
 Figure 3:
 ![Figure 3](./imgs/Figure3.png)
 
