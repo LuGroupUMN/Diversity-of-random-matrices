@@ -27,4 +27,16 @@ python -m one_d.vary_m.train
 ```
 The 2D procedures are the same, but with `two_d` instead. To change in-domain vs out-of-domain, change `A = generate_A_1d_fd_batch(...)` to `A = generate_A_1d_fem_batch(...)` in the `test.py` file. The same can be done in `train.py` to change the training discretization method.
 
-(Readme WIP...)
+# Results and Figures
+The 1D in-domain and out-of-domain generalization figures are found in `one_d/Figure1.ipynb` and `one_d/Figure2.ipynb` respectively. The 2D in-domain and out-of-domain generalization figures are found in `two_d/Figure3.ipynb` and `two_d/Figure4.ipynb` respectively. 
+
+We show that in both generalization types for 1D and 2D, the error rate with respect to the inference prompt length scales as a power law of O(-1):
+
+Figure 1:
+![Figure 1](./imgs/Figure1.png)
+
+Figure 3:
+![Figure 3](./imgs/Figure3.png)
+
+Figure 4:
+![Figure 4](./imgs/Figure4.png)
