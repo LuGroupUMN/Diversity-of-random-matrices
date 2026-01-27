@@ -1,5 +1,7 @@
 # Diversity of Random Matrices
 
+This repository contains used in *"A theory of diversity for random matrices with applications to in-context learning of Schrödinger equations"* ([https://arxiv.org/pdf/2601.12587](https://arxiv.org/pdf/2601.12587)).
+
 We evaluate the in-context learning capabilities of a simplified (linear) transformer model for random matrices. Specifically, we train and test against discretizations of Schrodinger operators. We also measure capabilities of in-domain generalization (training and testing on the same discretization method) and capabilities of out-of-domain generalization (training and testing on different discretization methods).
 
 ## 1D System
@@ -32,14 +34,14 @@ The 1D in-domain and out-of-domain generalization figures are found in `one_d/Fi
 
 We show that in both generalization types for 1D and 2D, the error rate with respect to the inference prompt length scales as a power law of O(-1):
 
-Figure 1:
-![Figure 1](./imgs/Figure1.png)
-
 Figure 2:
-![Figure 2](./imgs/Figure2.png)
+![Figure 2](./imgs/Figure1.png)
 
 Figure 3:
-![Figure 3](./imgs/Figure3.png)
+![Figure 3](./imgs/Figure2.png)
 
-Figure 4:
-![Figure 4](./imgs/Figure4.png)
+Figure 5:
+![Figure 5](./imgs/Figure3.png)
+
+Figure 6:
+![Figure 6](./imgs/Figure4.png)
